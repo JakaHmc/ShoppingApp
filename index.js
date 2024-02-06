@@ -3,15 +3,16 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.2/firebas
 import { getDatabase, ref, push, onValue, remove } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-database.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC9lmAi17Y-T0BieVVpe0YVZErGnqH5a5I",
-  authDomain: "skladisce-ac677.firebaseapp.com",
-  databaseURL: "https://skladisce-ac677-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "skladisce-ac677",
-  storageBucket: "skladisce-ac677.appspot.com",
-  messagingSenderId: "751112893962",
-  appId: "1:751112893962:web:f62851a523fc5bd60c91f3",
-  measurementId: "G-QV1LQCXDW1"
-};
+    apiKey: "AIzaSyDKOkNjZ0qIGR1HPF4ZNKigSxg_jFXX99s",
+    authDomain: "druzinski-nakupovalni-listek.firebaseapp.com",
+    databaseURL: "https://druzinski-nakupovalni-listek-default-rtdb.europe-west1.firebasedatabase.app/",
+    projectId: "druzinski-nakupovalni-listek",
+    storageBucket: "druzinski-nakupovalni-listek.appspot.com",
+    messagingSenderId: "792516960091",
+    appId: "1:792516960091:web:0bbe98941ea74ec9fa047e",
+    measurementId: "G-4HWPY4R9V8"
+  };
+  
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
