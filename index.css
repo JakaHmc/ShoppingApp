@@ -72,3 +72,9 @@ ul li:hover {
     background-color: #FFECC7;
     cursor: pointer;
 }
+
+.shopping-list-item.checked {
+    text-decoration: line-through;
+    color: gray; /* optional: change color of crossed-out item */
+    opacity: 0.5
+}
